@@ -1,0 +1,6 @@
+framework module Pods_StyleItTest {
+  umbrella header "Pods-StyleItTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

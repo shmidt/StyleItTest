@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ThumbnailCell" customModule="StyleItTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="180"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jzI-Wj-XMW">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="180"/>
+                    </imageView>
+                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="sSK-pz-DUd">
+                        <rect key="frame" x="62" y="71" width="37" height="37"/>
+                    </activityIndicatorView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.87843137979507446" green="0.87843137979507446" blue="0.87843137979507446" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="jzI-Wj-XMW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6tT-pG-9Rd"/>
+                <constraint firstItem="jzI-Wj-XMW" firstAttribute="centerX" secondItem="sSK-pz-DUd" secondAttribute="centerX" constant="-0.5" id="AqQ-fe-R5s"/>
+                <constraint firstAttribute="trailing" secondItem="jzI-Wj-XMW" secondAttribute="trailing" id="E6a-jn-I7r"/>
+                <constraint firstItem="jzI-Wj-XMW" firstAttribute="centerY" secondItem="sSK-pz-DUd" secondAttribute="centerY" constant="0.5" id="ftl-Xv-SoD"/>
+                <constraint firstAttribute="bottom" secondItem="jzI-Wj-XMW" secondAttribute="bottom" id="hZ3-V3-GWb"/>
+                <constraint firstItem="jzI-Wj-XMW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ug6-j6-Xdx"/>
+            </constraints>
+            <size key="customSize" width="160" height="180"/>
+            <connections>
+                <outlet property="activityIndidcator" destination="sSK-pz-DUd" id="e2q-BK-F3d"/>
+                <outlet property="imageView" destination="jzI-Wj-XMW" id="u8E-iY-hrb"/>
+            </connections>
+            <point key="canvasLocation" x="329" y="501"/>
+        </collectionViewCell>
+    </objects>
+</document>

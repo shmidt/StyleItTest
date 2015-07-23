@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (1.2.3)
+  - AlamofireObjectMapper (0.5):
+    - Alamofire (~> 1.2)
+    - ObjectMapper (~> 0.10)
+  - CollectionViewWaterfallLayout (0.2.1)
+  - ObjectMapper (0.12)
+  - Realm (0.93.2):
+    - Realm/Headers (= 0.93.2)
+  - Realm/Headers (0.93.2)
+  - RealmSwift (0.93.2):
+    - Realm (= 0.93.2)
+  - SVProgressHUD (1.1.3)
+  - SwiftyJSON (2.2.0)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper (~> 0.2)
+  - CollectionViewWaterfallLayout
+  - RealmSwift
+  - SVProgressHUD
+  - SwiftyJSON (~> 2.2)
+
+SPEC CHECKSUMS:
+  Alamofire: 5550bf0b575ed1a4bf9be572f9463e1015cc169e
+  AlamofireObjectMapper: 898d4ef5c6fc076331406f43702dc06d2c9c7513
+  CollectionViewWaterfallLayout: 5e72ddd5be0a69cd36365d54908221dabaea9549
+  ObjectMapper: ef4a369cbab75546029ceb7e8155772b5f8e8841
+  Realm: 2fdd0ae74f730e190384e0338d8a0d3654df8220
+  RealmSwift: 231b064da9f98b1c4f325fe1f1cb8756aae2b8d6
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  SwiftyJSON: 0b3e6c07af17ff745e77e8e9984097b55c956e5c
+
+COCOAPODS: 0.38.0
